@@ -1,0 +1,43 @@
+﻿<Page x:Class="SmartCalendarTIC.PageDevelopers"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:SmartCalendarTIC"
+      mc:Ignorable="d" 
+      d:DesignHeight="900" d:DesignWidth="1900"
+      Title="PageDevelopers">
+
+    <StackPanel>
+       
+        <TextBlock Foreground="White" FontSize="26" TextAlignment="Center">Разработкой проекта занималась команда из трёх человек</TextBlock>
+        <StackPanel Margin="10">
+            <TextBlock Foreground="White" FontSize="22" TextAlignment="Left">Калантай О.В.</TextBlock>
+            <TextBlock Foreground="White" FontSize="19" TextAlignment="Left">Team-Lead команды. Является ответственным лицом за разрабатываемый</TextBlock>
+            <TextBlock Foreground="White" FontSize="19" TextAlignment="Left">Продукт. Ставит задачи перед командой, делегирует обязанности разным</TextBlock>
+            <TextBlock Foreground="White" FontSize="19" TextAlignment="Left">Участникам команды, следит за сроками выполнения проекта, качеством</TextBlock>
+            <TextBlock Foreground="White" FontSize="19" TextAlignment="Left">Выполненной работы. Делает финальную презентацию и представляет</TextBlock>
+            <TextBlock Foreground="White" FontSize="19" TextAlignment="Left">Продукт конечному потребителю.</TextBlock>
+        </StackPanel>
+        <StackPanel Margin="630,80,0,0">
+            <TextBlock Foreground="White" FontSize="22" TextAlignment="Left">Даншин А.П.</TextBlock>
+            <TextBlock Foreground="White" FontSize="19" TextAlignment="Left">Back-end разработчик команды. В данном проекте является реализатором</TextBlock>
+            <TextBlock Foreground="White" FontSize="19" TextAlignment="Left">Интеграции системы eLearn в разрабатываемый календарь. Исследовал</TextBlock>
+            <TextBlock Foreground="White" FontSize="19" TextAlignment="Left">Внутреннюю структуру сайта eLearn и разработал систему парсинга</TextBlock>
+            <TextBlock Foreground="White" FontSize="19" TextAlignment="Left">Данных из сайта eLearn.csn.khai.edu. Берёт участие в представлении</TextBlock>
+            <TextBlock Foreground="White" FontSize="19" TextAlignment="Left">Продукта конечному потребителю.</TextBlock>
+        </StackPanel>
+        <StackPanel Margin="1225,80,0,0">
+            <TextBlock Foreground="White" FontSize="22" TextAlignment="Left">Юношев А.А.</TextBlock>
+            <TextBlock Foreground="White" FontSize="19" TextAlignment="Left">Full-stack разработчик команды. В данном проекте является реализатором</TextBlock>
+            <TextBlock Foreground="White" FontSize="19" TextAlignment="Left">Пользовательского интерфейса разрабатываемого продукта и функций для</TextBlock>
+            <TextBlock Foreground="White" FontSize="19" TextAlignment="Left">Работы с офлайн-задачами (задачи не из eLearn, а добавляемые вручную).</TextBlock>
+            <TextBlock Foreground="White" FontSize="19" TextAlignment="Left">Берёт участие в представлении продукта конечному потребителю.</TextBlock>
+        </StackPanel>
+
+        <StackPanel>
+            <TextBlock Foreground="White" FontSize="26" Margin="0,200,0,0" TextAlignment="Center">Качество, простота, элегантность</TextBlock>
+            
+        </StackPanel>
+    </StackPanel>
+</Page>

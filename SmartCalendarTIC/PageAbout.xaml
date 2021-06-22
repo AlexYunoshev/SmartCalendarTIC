@@ -1,0 +1,42 @@
+﻿<Page x:Class="SmartCalendarTIC.PageAbout"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:SmartCalendarTIC"
+      mc:Ignorable="d" 
+      d:DesignHeight="900" d:DesignWidth="1900"
+      Title="PageAbout">
+
+    <StackPanel>
+
+        <TextBlock Foreground="White" FontSize="30" TextAlignment="Center">Информация о проекте</TextBlock>
+        <StackPanel Margin="10">
+            <TextBlock Foreground="White" FontSize="22" TextAlignment="Left">Проект "Умный календарь" предназначен для оптимизации и структурирования</TextBlock>
+            <TextBlock Foreground="White" FontSize="22" TextAlignment="Left">Выполняемых пользователем задач как в университете, так и своих личных.</TextBlock>
+            <TextBlock Foreground="White" FontSize="22" TextAlignment="Left">В календаре есть возможность авторизироваться в своём профиле eLearn и </TextBlock>
+            <TextBlock Foreground="White" FontSize="22" TextAlignment="Left">Получать оттуда все невыполненные задания. Также у пользователя есть</TextBlock>
+            <TextBlock Foreground="White" FontSize="22" TextAlignment="Left">Возможность добавлять и удалять свои личные задания.</TextBlock>
+        </StackPanel>
+        <StackPanel Margin="620,80,0,0">
+            <TextBlock Foreground="White" FontSize="22" TextAlignment="Left">Для того, чтобы авторизироваться на сайте eLearn, пользователю</TextBlock>
+            <TextBlock Foreground="White" FontSize="22" TextAlignment="Left">Необходимо нажать кнопку "ELEARN" в верхнем меню программы.</TextBlock>
+            <TextBlock Foreground="White" FontSize="22" TextAlignment="Left">После перехода на страницу сайта необходимо ввести свой логин,</TextBlock>
+            <TextBlock Foreground="White" FontSize="22" TextAlignment="Left">Пароль и выполнить вход на сайт. Далее следует нажать кнопку</TextBlock>
+            <TextBlock Foreground="White" FontSize="22" TextAlignment="Left">"Получить данные", после чего пользователь может наблюдать</TextBlock>
+            <TextBlock Foreground="White" FontSize="22" TextAlignment="Left">Прогресс получения данных. По завершению данного процесса</TextBlock>
+            <TextBlock Foreground="White" FontSize="22" TextAlignment="Left">Пользователь может перейти на вкладку "КАЛЕНДАРЬ" и увидеть</TextBlock>
+            <TextBlock Foreground="White" FontSize="22" TextAlignment="Left">Список всех заданий, как в календаре, так и в боковом окне.</TextBlock>
+        </StackPanel>
+        <StackPanel Margin="1210,80,0,0">
+            <TextBlock Foreground="White" FontSize="22" TextAlignment="Left">Для того, чтобы добавлять свои личные задания, пользователю</TextBlock>
+            <TextBlock Foreground="White" FontSize="22" TextAlignment="Left">Необходимо, находясь во вкладке "КАЛЕНДАРЬ", ввести нужные</TextBlock>
+            <TextBlock Foreground="White" FontSize="22" TextAlignment="Left">Данные в поля "Дисциплина", "Задание", выбрать нужную дату</TextBlock>
+            <TextBlock Foreground="White" FontSize="22" TextAlignment="Left">И время сдачи работы, после чего нажать кнопку "ОК".</TextBlock>
+            <TextBlock Foreground="White" FontSize="22" TextAlignment="Left">Для удаление задания необходимо выбрать дату задания,</TextBlock>
+            <TextBlock Foreground="White" FontSize="22" TextAlignment="Left">Которое хотите удалить, нажать кнопку "Выбрать", после чего</TextBlock>
+            <TextBlock Foreground="White" FontSize="22" TextAlignment="Left">В выпадающем списке выбрать необходимое задание и нажать на</TextBlock>
+            <TextBlock Foreground="White" FontSize="22" TextAlignment="Left">Кнопку "Удалить". После данных действий задание удаляется.</TextBlock>
+        </StackPanel>
+    </StackPanel>
+</Page>
